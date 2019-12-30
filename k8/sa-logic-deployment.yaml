@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - image: objex/sentiment-logic
-          imagePullPolicy: Always
+          imagePullPolicy: Never
           name: sa-logic
           ports:
             - containerPort: 5000

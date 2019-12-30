@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - image: objex/sentiment-analysis-frontend:green
-          imagePullPolicy: Always
+          imagePullPolicy: Never
           name: sa-frontend
           ports:
             - containerPort: 80

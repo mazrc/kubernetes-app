@@ -19,11 +19,11 @@ EOF
 kubectl apply -f sa-frontend-deployment.yaml --namespace=demo
 kubectl apply -f service-sa-frontend-lb.yaml --namespace=demo
 
-## Service
+## Backend Service
 kubectl apply -f sa-service-deployment.yaml --namespace=demo
 kubectl apply -f service-sa-microservice-lb.yaml --namespace=demo
 
-## Logic
+## Logic Service
 kubectl apply -f sa-logic-deployment.yaml --namespace=demo
 kubectl apply -f service-sa-logic.yaml --namespace=demo
 

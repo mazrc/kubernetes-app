@@ -7,6 +7,7 @@ metadata:
 spec:                                                # 3
   containers:
     - image: objex/sentiment-analysis-frontend # 4
-      name: sa-frontend                              # 5
+      name: sa-frontend    
+      imagePullPolicy: Never                               # 5
       ports:
         - containerPort: 80                          # 6
