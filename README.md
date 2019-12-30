@@ -1,4 +1,4 @@
-# Sentiment Analysis Kubernetes Web App
+# Sentiment Analysis Kubernetes Application
 This repository contains the source files needed to run Sentiment Analysis Webapp on Kubernetes
 
 It clones and build local docker images of following components:
